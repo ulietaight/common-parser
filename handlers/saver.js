@@ -2,6 +2,7 @@ import path from 'path';
 import fs from 'fs';
 import chalk from 'chalk';
 
+
 export default async function saveData(data) {
   const fileName = `result.json`;
   const savePath = path.join(__dirname, '..', 'data', fileName);
